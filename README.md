@@ -179,8 +179,3 @@ Metrics reported as mean ± standard deviation across 5-fold patient-level cross
 }
 ```
 
----
-
-## 9. License
-
-Include your intended license here. Ensure third-party attribution for MedSAM, Segment Anything, and other vendored packages.
