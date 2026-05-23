@@ -104,35 +104,17 @@ pip install -r requirements.txt
 ```
 
 ---
-
 ## 4. Data Preparation
 
-BUA-LEL was evaluated on five datasets in the paper, including two private clinical breast ultrasound cohorts and three public benchmarks. The two in-house clinical cohorts from Peking Union Medical College Hospital and Beijing Longfu Hospital are not publicly released due to institutional privacy, ethical, and data-sharing restrictions. Researchers interested in academic use may contact the corresponding author for potential access, subject to approval by the data-owning institutions.
+BUA-LEL was evaluated on two private clinical cohorts and three public datasets. The two private hospital datasets used in the paper are not publicly released due to institutional privacy and data-sharing restrictions. Researchers may contact the corresponding author for potential academic access, subject to institutional approval. The three public datasets can be downloaded according to the corresponding citations in the paper.
 
-The three public datasets used in the paper can be downloaded from their official sources or through the corresponding references cited in the manuscript:
-
-- **BrEaST**: public ultrasound–BI-RADS multimodal benchmark.
-- **BUSI**: public breast ultrasound image dataset for lesion segmentation and classification.
-- **ISIC 2018**: public skin lesion image–metadata benchmark used for cross-domain validation.
-
-Please refer to the dataset citations in the paper for detailed download links, licenses, and usage conditions. In the manuscript, BUA-LEL is evaluated on two in-house cohorts and three public benchmarks, namely HER2USC, LMNUSC, BrEaST, BUSI, and ISIC 2018. :contentReference[oaicite:0]{index=0}
-
-### Expected Data Format
-
-For running this repository on your own dataset or on downloaded public datasets, organize the data as follows:
+Expected directory structure:
 
 ```text
 data/
 |-- images/
-|   |-- 001.bmp
-|   |-- 002.bmp
-|   `-- ...
 |-- masks/
-|   |-- 001.png
-|   |-- 002.png
-|   `-- ...
 `-- clinical.xlsx
-
 ---
 
 ## 5. Training & Evaluation
