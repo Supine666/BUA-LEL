@@ -115,8 +115,9 @@ data/
 |-- images/
 |-- masks/
 `-- clinical.xlsx
----
+```
 
+---
 ## 5. Training & Evaluation
 
 **Run 5-fold cross-validation**:
