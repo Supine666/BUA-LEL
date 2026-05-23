@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+work_dir/
+outputs/
+runs/
+logs/
+
+# Data
+data/
+*.xlsx
+*.csv
+*.bmp
+*.png
+*.jpg
+*.jpeg
