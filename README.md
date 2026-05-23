@@ -107,20 +107,31 @@ pip install -r requirements.txt
 
 ## 4. Data Preparation
 
-Expected directory structure:
+BUA-LEL was evaluated on five datasets in the paper, including two private clinical breast ultrasound cohorts and three public benchmarks. The two in-house clinical cohorts from Peking Union Medical College Hospital and Beijing Longfu Hospital are not publicly released due to institutional privacy, ethical, and data-sharing restrictions. Researchers interested in academic use may contact the corresponding author for potential access, subject to approval by the data-owning institutions.
+
+The three public datasets used in the paper can be downloaded from their official sources or through the corresponding references cited in the manuscript:
+
+- **BrEaST**: public ultrasound–BI-RADS multimodal benchmark.
+- **BUSI**: public breast ultrasound image dataset for lesion segmentation and classification.
+- **ISIC 2018**: public skin lesion image–metadata benchmark used for cross-domain validation.
+
+Please refer to the dataset citations in the paper for detailed download links, licenses, and usage conditions. In the manuscript, BUA-LEL is evaluated on two in-house cohorts and three public benchmarks, namely HER2USC, LMNUSC, BrEaST, BUSI, and ISIC 2018. :contentReference[oaicite:0]{index=0}
+
+### Expected Data Format
+
+For running this repository on your own dataset or on downloaded public datasets, organize the data as follows:
 
 ```text
 data/
 |-- images/
+|   |-- 001.bmp
+|   |-- 002.bmp
+|   `-- ...
 |-- masks/
+|   |-- 001.png
+|   |-- 002.png
+|   `-- ...
 `-- clinical.xlsx
-```
-
-- **Images**: grayscale ultrasound, resized to 256×256  
-- **Masks**: binary, resized to 256×256  
-- **Clinical table**: first column patient ID, last column labels (0/1/2), complete values required  
-
-**Patient ID matching**: image, mask, and clinical row must share the same patient ID.
 
 ---
 
@@ -179,3 +190,6 @@ Metrics reported as mean ± standard deviation across 5-fold patient-level cross
 }
 ```
 
+# License
+
+This project is released under the **MIT License**.
