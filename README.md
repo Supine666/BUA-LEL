@@ -137,7 +137,7 @@ python scripts/run_cv.py
 - Fold-specific best checkpoints (`checkpoints_bul/best_fold*.pth`)  
 - Fold metrics CSV (`fold*/fold*_metrics.csv`)  
 - Out-of-fold ROC plots (`OOF_ROC.png`)  
-- Aggregated summary CSV (`paper_table_mean_std.csv`)  
+- Aggregated summary CSV (`paper_table_mean_std.csv`)
 
 ---
 
