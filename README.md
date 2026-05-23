@@ -19,7 +19,6 @@ BUA-LEL consists of the following modules:
 2. **Boundary-uncertainty graph**: refines coarse lesion priors and explicitly encodes uncertain lesion margins.
 3. **Zonal pooling**: decomposes the refined lesion into core, boundary, and peritumoral regions, producing regional morphology tokens.
 4. **Morphology-Clinical Heterogeneous Graph**: integrates lesion morphology tokens with clinical tokens for relation-aware reasoning.
-5. **Classifier**: outputs 3-class molecular subtype predictions from the fused feature representation.
 
 **Optimization objective**:
 
