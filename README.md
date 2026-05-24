@@ -160,19 +160,4 @@ Metrics reported as mean ± standard deviation across 5-fold patient-level cross
 4. Fixed seed = 42  
 5. Default TrainConfig used unless performing ablation  
 
----
 
-## 8. Citation
-
-```bibtex
-@article{YeBUALEL2026,
-  title   = {Boundary-Uncertainty-Aware Lesion Evidence Learning for Breast Ultrasound Segmentation and Molecular Subtyping},
-  author  = {Ye, Jinlin and Hu, Deming and Ge, Zhongyu and Li, Ziqi and Yuan, Shouhang and Liu, Yuhan and Yang, Liang and Ren, Shangjie and Wang, Changjun and Zhou, Yidong and Zhang, Wei},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-# License
-
-This project is released under the **MIT License**.
