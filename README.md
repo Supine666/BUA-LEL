@@ -10,12 +10,7 @@ Official PyTorch implementation of:
 
 ![image](https://github.com/Supine666/BUA-LEL/blob/main/Method-new.png).
 
-BUA-LEL performs joint breast ultrasound lesion segmentation and molecular subtype prediction using multimodal inputs:
 
-- Ultrasound images (X ∈ ℝ^{H×W×3})  
-- Clinical variables (c ∈ ℝ^{d_c})  
-
----
 
 ## 1. Method Overview
 
