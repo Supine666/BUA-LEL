@@ -4,6 +4,12 @@ Official PyTorch implementation of:
 
 **Boundary-Uncertainty-Aware Lesion Evidence Learning for Breast Ultrasound Segmentation and Molecular Subtyping**
 
+
+
+
+
+![image](https://github.com/Supine666/BUA-LEL/blob/main/Method-new.png).
+
 BUA-LEL performs joint breast ultrasound lesion segmentation and molecular subtype prediction using multimodal inputs:
 
 - Ultrasound images (X ∈ ℝ^{H×W×3})  
